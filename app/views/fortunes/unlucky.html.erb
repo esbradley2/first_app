@@ -1,0 +1,7 @@
+<h1>Your unlucky numbers for the day:</h1>
+
+<ul>
+  <% @the_numbers.sort.each do |num| %>
+  <li><%= num %></li>
+  <% end %>
+</ul>
